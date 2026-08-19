@@ -606,82 +606,8 @@ arquivo_dados_abertos()
 arquivo_power_bi()
 banco_postgis()
 relatorio_e_mail()
+
 ```
-
----
-
-# 📋 Principais campos da base final
-
-A base consolidada contém informações relacionadas a diferentes dimensões dos acidentes.
-
-### Identificação
-
-* `ID_MITS`
-* `ID_EXTENSAO`
-* `NUMERO_OCORRENCIA`
-
-### Localização
-
-* `RODOVIA`
-* `KM`
-* `RODOVIA_KM`
-* `MUNICIPIO`
-* `LATITUDE`
-* `LONGITUDE`
-* `REGIAO_ADMINISTRATIVA`
-* `REGIONAL_DER`
-* `JURISDICAO`
-
-### Data e hora
-
-* `DATA`
-* `HORA`
-
-### Acidente
-
-* `CATEGORIA`
-* `CLASSE`
-* `SUBCLASSE`
-* `CAUSA_PROVAVEL`
-* `SEQUENCIA`
-* `SEQUENCIA_DETALHE`
-
-### Vítimas
-
-* `VITIMA_ILESA`
-* `VITIMA_LEVE`
-* `VITIMA_MODERADA`
-* `VITIMA_GRAVE`
-* `VITIMA_FATAL`
-* `VITIMAS_SEM_INFO`
-* `FERIDOS`
-
-### Veículos
-
-* `VEICULOS_ENVOLVIDOS`
-
-### Condições
-
-* `VISIBILIDADE`
-* `CONDICAO_METERIOLOGICA`
-* `CONDICAO_METERIOLOGICA_DETALHE`
-* `PAVIMENTO`
-* `ILUMINACAO`
-* `TIPO_PISTA`
-* `TRACADO_PISTA`
-* `PERFIL_PISTA`
-
-### Características do local
-
-* `CARACTERISTICA_LINDEIRA`
-* `ELEMENTO_ESTRADAL`
-* `LOCAL_OCORRENCIA`
-* `LOCAL_NIVEL_1`
-* `LOCAL_NIVEL_2`
-
-A estrutura final das colunas é definida no processo de padronização do módulo de tratamento.
-
----
 
 # 📊 Possibilidades de análise
 
