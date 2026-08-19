@@ -1,0 +1,36 @@
+# Ignorar todos os arquivos dentro da pasta saida
+saida/**
+
+# Permitir todas as pastas dentro de saida
+!saida/**/
+
+# Permitir arquivos .gitkeep dentro da pasta saida
+!saida/**/*.gitkeep
+
+# Ignorar todos os arquivos dentro da pasta entrada, exceto .gitkeep
+entrada/*
+!entrada/.gitkeep
+
+# Ignorar todos os arquivos dentro da pasta temp, exceto .gitkeep
+temp/*
+!temp/.gitkeep
+
+# Ignorar pasta do ambiente virtual
+/venv
+
+# Ignorar arquivos log
+/*.log
+
+# Ignorar arquivos temporários do Python
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar cache de bytecode
+__pycache__/
+**/__pycache__/
+
+# Ignorar pasta do vscode
+.vscode/
+
+/*.env
