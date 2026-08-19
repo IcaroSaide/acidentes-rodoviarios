@@ -85,12 +85,12 @@ acidentes-rodoviarios/
 │
 ├── config/
 │   ├── diretorios.py
-│   ├── log.py
+│   └── log.py
 │   
 │
 ├── dados_auxiliares/
 │   ├── coords.csv
-│   ├── CCI_MALHA_RODOVIARIA_SP.xlsx
+│   └── CCI_MALHA_RODOVIARIA_SP.xlsx
 │   
 │
 ├── etl/
@@ -107,8 +107,8 @@ acidentes-rodoviarios/
 │   │   ├── subclasse.py
 │   │   ├── veiculos.py
 │   │   ├── vitimas.py
-│   │   
-│   └── ...
+│   │   ├── visibilidade.py
+│   │   └── pista_perfil.py
 │
 ├── saida/
 │   ├── acidentes_2020.csv
